@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  database: appointments_development
+
+test:
+  adapter: postgresql
+  database: appointments_test
+
+production:
+  adapter: postgresql
+  database: appointments_production

@@ -12,11 +12,14 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'ember-rails'
 gem 'ember-source'
+gem 'devise'
+gem 'haml-rails'
 
-group :assets do
-  gem 'bootstrap-sass'
-  gem 'sass-rails', '~> 5.0'
-end
+# Assets
+gem 'bootstrap-sass'
+gem 'sass-rails'
+gem 'font-awesome-sass'
+gem 'autoprefixer-rails'
 
 group :development, :test do
   gem 'byebug'

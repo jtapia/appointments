@@ -1,0 +1,17 @@
+#navbar
+  .navbar.navbar-default.navbar-static-top
+    .container
+      .navbar-header
+        = link_to t('navbar.app_name'), root_path, class: 'navbar-brand'
+
+        %button{ class: 'navbar-toggle', data: { toggle: 'collapse', target: '.navbar-collapse'}}
+          %span.sr-only Toggle Nav
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+
+      %ul.nav.navbar-nav.navbar-right.collapse.navbar-collapse
+        %li= link_to t('navbar.about'), '#'
+        %li= link_to t('navbar.features'), '#'
+        %li= link_to t('navbar.support'), '#'
+        %li= link_to t('navbar.login'), '#'

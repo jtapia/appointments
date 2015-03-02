@@ -1,0 +1,21 @@
+// Flash Messages
+
+#alert-message {
+  .alert {
+    margin: 0;
+    padding: 5px 25px;
+    color: white;
+
+    &.alert-error {
+      background-color: red;
+    }
+
+    &.alert-notice {
+      background-color: green;
+    }
+
+    &.alert-alert {
+      background-color: yellow;
+    }
+  }
+}

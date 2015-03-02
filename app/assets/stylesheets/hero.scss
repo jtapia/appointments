@@ -1,0 +1,12 @@
+#hero {
+  height: 800px;
+  margin-bottom: 40px;
+
+  .hero-unit {
+    background: url('logo1.png') no-repeat;
+    background-size: cover;
+    background-position: 0 15%;
+    width: 100%;
+    height: 800px;
+  }
+}

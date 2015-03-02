@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title Appointments
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+  %body
+    / Flash messages
+    = render 'shared/messages'
+    / Navabar
+    = render 'layouts/navbar'
+    = yield
+    / Footer
+    = render 'layouts/footer'
+    / Modals
+    = render 'shared/login_modal'

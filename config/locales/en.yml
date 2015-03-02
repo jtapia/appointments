@@ -1,23 +1,58 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  navbar:
+    app_name: Appointments
+    about: About
+    features: Features
+    support: Support
+    login: Login
+  features:
+    description:
+      main: Designed for everyone, everywhere.
+      extra: Bootstrap makes front-end web development faster and easier. It's made for folks of all skill levels, devices of all shapes, and projects of all sizes.
+    one:
+      title: Incredile Speed!
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut diam ultrices nulla posuere blandit.
+        Etiam convallis, turpis non ultrices sodales, diam sem venenatis nisi, in venenatis erat erat a eros.
+        Proin sed velit mi. Praesent vehicula urna non mi egestas, id lacinia risus malesuada. Phasellus tempus tincidunt turpis eget malesuada.
+        Sed vitae aliquet urna, id lacinia lectus. Sed dignissim, felis congue aliquet fermentum, massa purus tincidunt arcu, eu pellentesque ligula tortor ut nulla.
+        Vivamus et varius ex. Integer eu tortor nec nisl viverra pulvinar eget at ante.
+        Fusce auctor leo ac lacus consequat rhoncus. Aenean pulvinar mollis risus nec hendrerit.
+    two:
+      title: Easy to use
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut diam ultrices nulla posuere blandit.
+        Etiam convallis, turpis non ultrices sodales, diam sem venenatis nisi, in venenatis erat erat a eros.
+        Proin sed velit mi. Praesent vehicula urna non mi egestas, id lacinia risus malesuada. Phasellus tempus tincidunt turpis eget malesuada.
+        Sed vitae aliquet urna, id lacinia lectus. Sed dignissim, felis congue aliquet fermentum, massa purus tincidunt arcu, eu pellentesque ligula tortor ut nulla.
+        Vivamus et varius ex. Integer eu tortor nec nisl viverra pulvinar eget at ante.
+        Fusce auctor leo ac lacus consequat rhoncus. Aenean pulvinar mollis risus nec hendrerit.
+    three:
+      title: Cheapest price
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut diam ultrices nulla posuere blandit.
+        Etiam convallis, turpis non ultrices sodales, diam sem venenatis nisi, in venenatis erat erat a eros.
+        Proin sed velit mi. Praesent vehicula urna non mi egestas, id lacinia risus malesuada. Phasellus tempus tincidunt turpis eget malesuada.
+        Sed vitae aliquet urna, id lacinia lectus. Sed dignissim, felis congue aliquet fermentum, massa purus tincidunt arcu, eu pellentesque ligula tortor ut nulla.
+        Vivamus et varius ex. Integer eu tortor nec nisl viverra pulvinar eget at ante.
+        Fusce auctor leo ac lacus consequat rhoncus. Aenean pulvinar mollis risus nec hendrerit.
+  footer:
+    info:
+      title: This is the logo and titles
+      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut diam ultrices nulla posuere blandit.
+        Etiam convallis, turpis non ultrices sodales, diam sem venenatis nisi, in venenatis erat erat a eros.
+    about:
+      title: About
+      mission: Mission
+      people: People
+      strategy: Strategy
+    social:
+      title: Social
+      facebook: Facebook
+      twitter: Twitter
+    support:
+      title: Support
+      faq: FAQ & Help
+      terms: Terms & Conditions
+      contact: Contact
+  login:
+    title: Login
+    errors:
+      invalid: Invalid email or password

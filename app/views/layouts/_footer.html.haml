@@ -1,0 +1,32 @@
+%footer
+  .container
+    .row
+      .col-md-3
+        #info
+          %h4= t('footer.info.title')
+          %p= t('footer.info.content')
+
+      .col-md-3
+        #about
+          %h4= t('footer.about.title')
+          %ul.list-unstyled
+            %li= link_to t('footer.about.mission'), '#'
+            %li= link_to t('footer.about.people'), '#'
+            %li= link_to t('footer.about.strategy'), '#'
+
+      .col-md-3
+        #social
+          %h4= t('footer.social.title')
+          %ul.list-unstyled
+            %li= link_to t('footer.social.facebook'), '#'
+            %li= link_to t('footer.social.twitter'), '#'
+
+      .col-md-3
+        #support
+          %h4= t('footer.support.title')
+          %ul.list-unstyled
+            %li= link_to t('footer.support.faq'), '#'
+            %li= link_to t('footer.support.terms'), '#'
+            %li= link_to t('footer.support.contact'), '#'
+
+
